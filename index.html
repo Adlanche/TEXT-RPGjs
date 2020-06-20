@@ -1,0 +1,66 @@
+<!doctype html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Acme"
+  rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="js/gamemanager.js"> </script>
+  <script src="js/player.js"> </script>
+  <script src="js/enemy.js"> </script>
+</head>
+
+<body>
+
+  <div class="header">
+    <p>Street Fighter X Tekken</p>
+    <h2>Choose your fighter!</h2>
+  </div>
+
+  <div class="interface">
+    <a href="#" onclick="GameManager.setGameStart('Ryu')">
+      <img src="img/arena-player/ryu.jpg" alt="ryu">
+    <div>
+      <h3>Ryu</h3>
+      <p>Ryu has higher health and stamina, however his
+         strength also makes him slower and clumsier</p>
+    </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Ken')">
+      <img src="img/arena-player/ken.jpg" alt="ken">
+    <div>
+      <h3>Ken</h3>
+      <p>Ken is a glass canon that outs all his effort into
+      spells. This means he slacks on everything else. </p>
+    </div>
+    </a>
+
+    <a href="#" onclick="GameManager.setGameStart('Jin')">
+      <img src="img/arena-player/jin.jpg" alt="jin">
+    <div>
+      <h3>Jin</h3>
+      <p>Jin is a well rounded fighter that focus on evening out
+         his skill. No strength or weaknesses.</p>
+    </div>
+    </a>
+
+  </div>
+
+  <div class="actions">
+
+  </div>
+
+  <div class="arena">
+
+  </div>
+
+  <div class="enemy">
+
+  </div>
+
+</body>
+<script src=""></script>
+
+</html>
